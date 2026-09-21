@@ -1,0 +1,17 @@
+V6 AUDITED UPLOAD
+
+This package intentionally does NOT include README.md.
+Upload/replace in repository root:
+- index.html
+- style-v6.css
+- script-v6.js
+- andre-profile.png
+- Curriculo_Andre_Barbosa.pdf
+- Carta_Apresentacao_Andre_Barbosa.pdf
+- favicon.svg
+- manifest.json
+- robots.txt
+- sitemap.xml
+
+After confirming V6 works, delete old style-v51.css and script-v51.js.
+Commit: Professional Hub V6 - audited visual motion
