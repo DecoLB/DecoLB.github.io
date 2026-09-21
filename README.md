@@ -1,36 +1,43 @@
-# André Luiz Barbosa — Professional Hub V3
+# André Luiz Barbosa — Professional Executive Hub V4
 
-Esta versão corrige o problema de mistura entre o HTML novo e o CSS/JS antigo em cache.
+Versão final focada em Senior Project Manager, Program & Portfolio Management, PMO Governance e Digital Transformation.
 
-## IMPORTANTE — COMO PUBLICAR
-No repositório `DecoLB.github.io`, substitua os arquivos antigos pelos arquivos desta pasta.
+## Publicação no GitHub Pages
 
-A raiz do repositório deve ficar assim:
+Substitua os arquivos atuais do repositório `DecoLB.github.io` pelos arquivos deste pacote.
 
-- index.html
-- style-v3.css
-- script-v3.js
-- andre-profile.png
-- Curriculo_Andre_Barbosa.pdf
-- Carta_Apresentacao_Andre_Barbosa.pdf
-- favicon.svg
-- manifest.json
-- robots.txt
-- sitemap.xml
-- README.md
+Estrutura esperada na raiz:
 
-### Remova os arquivos antigos
-Se existirem, exclua:
-- style.css
-- script.js
-- pasta assets/
-- pasta documents/
+- `index.html`
+- `style-v4.css`
+- `script-v4.js`
+- `andre-profile.png`
+- `Curriculo_Andre_Barbosa.pdf`
+- `Carta_Apresentacao_Andre_Barbosa.pdf`
+- `favicon.svg`
+- `manifest.json`
+- `robots.txt`
+- `sitemap.xml`
+- `README.md`
 
-O `index.html` desta versão referencia arquivos versionados (`style-v3.css?v=3` e `script-v3.js?v=3`) para eliminar o cache da versão anterior.
+Remova os arquivos antigos `style-v3.css` e `script-v3.js` depois de confirmar a V4.
 
-Depois do commit:
-1. aguarde o GitHub Pages publicar;
-2. abra https://decolb.github.io;
-3. pressione Ctrl+Shift+R ou Ctrl+F5.
+## Principais melhorias V4
 
-Build marker: ALB-V3-FIXED-20260921
+- parallax intensificado
+- glow dinâmico seguindo o mouse
+- elementos pulsantes e ambient animation
+- dashboard factual em ciclo contínuo: cresce, mantém 2s, zera e reinicia
+- gráficos circulares apenas com métricas documentadas
+- áreas de atuação enriquecidas com ferramentas e técnicas
+- certificações ampliadas conforme CV / LinkedIn
+- stack ampliado com ferramentas, métodos, arquitetura, dados e IA
+- ícones de marcas via Simple Icons, com fallback local caso o CDN não carregue
+- PT / EN
+- timeline revisada
+- publicações com links
+- PDFs finais para download
+
+## Observação de segurança
+
+Bloqueios de seleção, copiar, menu de contexto e atalhos comuns de DevTools são apenas mecanismos de dissuasão. Nenhum site público consegue impedir tecnicamente inspeção do código por alguém que controla o próprio navegador.
