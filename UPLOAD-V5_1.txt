@@ -1,0 +1,37 @@
+V5.1 HOTFIX
+
+ROOT CAUSE FIXED:
+The previous script-v5.js contained literal '\n' characters outside a JavaScript string.
+That caused a SyntaxError, so NONE of the JavaScript executed.
+Result:
+- Hero/reveal content stayed hidden
+- Dashboard remained at zero
+- Scale section remained blank
+- Parallax and interactions did not start
+
+UPLOAD ONLY THESE FILES TO THE ROOT:
+- index.html
+- style-v51.css
+- script-v51.js
+- andre-profile.png
+- Curriculo_Andre_Barbosa.pdf
+- Carta_Apresentacao_Andre_Barbosa.pdf
+- favicon.svg
+- manifest.json
+- robots.txt
+- sitemap.xml
+
+DO NOT UPLOAD OR REPLACE README.md.
+
+AFTER UPLOAD:
+1. Commit: V5.1 JavaScript hotfix
+2. Wait for GitHub Pages deployment.
+3. Open https://decolb.github.io in an incognito window.
+4. Hard refresh once with Ctrl+Shift+R.
+
+After V5.1 works, delete:
+- style-v5.css
+- script-v5.js
+
+The site now also has a fail-safe:
+content remains visible even if JavaScript ever fails again.
