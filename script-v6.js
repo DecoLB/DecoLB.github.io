@@ -2,11 +2,16 @@
 (() => {
 const $=(s,c=document)=>c.querySelector(s), $$=(s,c=document)=>[...c.querySelectorAll(s)];
 
-// language
+// language: PT / EN / ES
 let lang=localStorage.getItem('alb-lang')||'pt';
-const lbtn=$('#langToggle');
-function setLang(){document.documentElement.lang=lang==='pt'?'pt-BR':'en';$$('[data-pt][data-en]').forEach(el=>el.textContent=el.dataset[lang]);if(lbtn)lbtn.textContent=lang==='pt'?'EN':'PT'}
-setLang();lbtn?.addEventListener('click',()=>{lang=lang==='pt'?'en':'pt';localStorage.setItem('alb-lang',lang);setLang()});
+if(!['pt','en','es'].includes(lang)) lang='pt';
+function setLang(){
+ document.documentElement.lang=lang==='pt'?'pt-BR':(lang==='es'?'es':'en');
+ $$('[data-pt][data-en][data-es]').forEach(el=>{el.textContent=el.dataset[lang]||el.dataset.pt});
+ $$('.lang-btn').forEach(b=>b.classList.toggle('active',b.dataset.lang===lang));
+}
+setLang();
+$$('.lang-btn').forEach(b=>b.addEventListener('click',()=>{lang=b.dataset.lang;localStorage.setItem('alb-lang',lang);setLang()}));
 
 // mouse glow follows cursor
 const glow=$('#mouseGlow');

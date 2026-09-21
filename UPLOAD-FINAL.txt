@@ -1,0 +1,25 @@
+FINAL TRILINGUAL UPDATE
+
+This package DOES NOT include README.md. Keep your current GitHub README.
+
+Replace only these files in repository root:
+- index.html
+- style-v6.css
+- script-v6.js
+- andre-profile.png
+- Curriculo_Andre_Barbosa.pdf
+- Carta_Apresentacao_Andre_Barbosa.pdf
+- favicon.svg
+- manifest.json
+- robots.txt
+- sitemap.xml
+
+Main changes:
+- PT / EN / ES selector
+- Full Spanish translation across the portfolio
+- Explicit professional capability in Portuguese, English and Spanish
+- English and Spanish identified as Full Professional Proficiency
+- 54-client career portfolio metric added
+- 54+ clients also added to Scale section
+
+Recommended commit: Final trilingual portfolio update
