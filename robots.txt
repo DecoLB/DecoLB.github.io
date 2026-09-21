@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://decolb.github.io/sitemap.xml

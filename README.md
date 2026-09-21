@@ -1,27 +1,33 @@
-# André Luiz Barbosa — Professional Hub
+# André Luiz Barbosa — Professional Hub V2
 
-Static professional website ready for GitHub Pages.
+## Atualização no GitHub Pages
+1. Abra o repositório `DecoLB.github.io`.
+2. Apague os arquivos antigos OU sobrescreva-os com o conteúdo deste pacote.
+3. Faça upload de **todos os arquivos e pastas da raiz deste ZIP**.
+4. Confirme que a estrutura final contém:
+   - index.html
+   - style.css
+   - script.js
+   - robots.txt
+   - sitemap.xml
+   - manifest.json
+   - assets/
+   - documents/
+5. Commit sugerido: `Professional Hub V2`.
+6. Aguarde 1–5 minutos e atualize https://decolb.github.io com Ctrl+F5.
 
-## Publish on GitHub Pages
-1. Create a public repository named `andre-l-barbosa.github.io` (recommended) or any public repository.
-2. Upload all files and folders from this package to the repository root.
-3. If using a repository named `andre-l-barbosa.github.io`, GitHub Pages can publish the root site directly.
-4. Otherwise, open **Settings > Pages**, choose **Deploy from a branch**, select `main` and `/ (root)`, then save.
-5. Wait for the Pages deployment to finish.
+## Downloads
+Os botões do site apontam para PDFs locais:
+- documents/Curriculo_Andre_Barbosa.pdf
+- documents/Carta_Apresentacao_Andre_Barbosa.pdf
 
-## Main files
-- `index.html`
-- `style.css`
-- `script.js`
-- `assets/`
-- `documents/`
+## Segurança
+O site desabilita seleção, copiar/recortar, menu de contexto e atalhos comuns de DevTools como camada de **dissuasão**.
+Nenhum site público consegue impedir tecnicamente que o código-fonte seja inspecionado por alguém com controle do próprio navegador.
 
-## Palette
-- Navy: #0b1f33
-- White: #ffffff
-- Black: #050607
-- Blue: #2194c2
-- Orange: #faa405
-
-## Customization
-Edit `index.html` to change text, links, dates, metrics or experience.
+## Paleta
+- Navy #0b1f33
+- White #ffffff
+- Black #050607
+- Blue #2194c2
+- Orange #faa405
